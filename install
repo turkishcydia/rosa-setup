@@ -1,1 +1,10 @@
-
+clear
+echo "installing.."
+sleep 2
+./sources/install.sh
+clear
+chmod +x /sources/osh/*
+./sources/osh/setup
+clear
+echo "Kuruldu [installed]."
+exit
