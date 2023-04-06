@@ -1,9 +1,10 @@
 clear
 echo "installing.."
 sleep 2
-./sources/install.sh
+chmod +x sources/*
+./sources/install_proot.sh
 clear
-chmod +x /sources/osh/*
+chmod +x sources/osh/*
 ./sources/osh/setup
 clear
 echo "Kuruldu [installed]."
