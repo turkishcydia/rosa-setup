@@ -2,7 +2,7 @@ clear
 echo "installing.."
 sleep 2
 chmod +x sources/*
-./sources/install_proot.sh
+./sources/install-proot.sh
 clear
 chmod +x sources/osh/*
 ./sources/osh/setup
